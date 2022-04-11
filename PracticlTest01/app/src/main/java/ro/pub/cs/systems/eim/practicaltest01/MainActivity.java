@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
     ButtonClickListener press = new ButtonClickListener();
     ButtonClickNavigate navigateThere = new ButtonClickNavigate();
 
-
     // servicii
     private IntentFilter intentFilter = new IntentFilter();
     private int serviceStatus = Constants.SERVICE_STOPPED;
 
 
+    // intent
     private class ButtonClickNavigate implements View.OnClickListener {
         @Override
             public void onClick(View view) {
